@@ -40,8 +40,8 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `username`, `email`, `password`) VALUES
-(1, 'parth', 'admin@admin.com', '123'),
-(4, 'saj', 'sajmaru360@gmail.com', '123');
+(1, 'manasi', 'admin@admin.com', '1234'),
+(4, 'rajeshree', 'sajmaru360@gmail.com', '1234');
 
 -- --------------------------------------------------------
 
@@ -158,8 +158,8 @@ CREATE TABLE `notification` (
 
 INSERT INTO `notification` (`id`, `notiuser`, `notireciver`, `notitype`, `time`) VALUES
 (18, '123', 'Admin', 'Create Account', '2019-03-02 08:03:26'),
-(19, 'saj@saj.com', 'Admin', 'Create Account', '2019-03-02 08:07:06'),
-(20, 'dilip@parth.com', 'Admin', 'Create Account', '2019-03-03 16:31:35'),
+(19, 'manasi@manasi.com', 'Admin', 'Create Account', '2019-03-02 08:07:06'),
+(20, 'raheshree@raju.com', 'Admin', 'Create Account', '2019-03-03 16:31:35'),
 (21, 'sajmaru360@gmail.com', 'Admin', 'Create Account', '2019-03-04 18:42:50'),
 (22, 'sajmaru360@gmail.com', 'Admin', 'Create Account', '2019-03-04 18:58:45'),
 (23, 'saj.maru@somaiya.edu', 'Admin', 'Create Account', '2019-03-04 19:00:21'),
